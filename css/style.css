@@ -56,6 +56,32 @@ header a:hover {
     cursor: pointer;
 }
 
+/* sekcja kawiarni */
+
+.cafe {
+    background-image: url(../img/coffe_shop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.cafe h2 {
+    color: white;
+}
+
+.single_cafe {
+    text-align: justify;
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.single_cafe a {
+    align-self: flex-end;
+}
+
 /* sekcja kontaktu */
 
 .contact {
@@ -76,11 +102,9 @@ header a:hover {
 
 .map {
     padding: 10px;
-
 }
 
 iframe {
     margin-top: 10px;
     width: 100%;
-    
 }

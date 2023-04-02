@@ -6,7 +6,20 @@
     align-items: center;
 }
 
+header h1 {
+    font-size: 38px;
+}
+
+.cafe {
+    padding: 40px 20px;
+}
+
+.single_cafe {
+    width: 30%;
+}
+
 .all_contacts {
     width: 100%;
     padding: 20px;
 }
+
